@@ -1,0 +1,2 @@
+rootProject.name='alarm1'
+include ':app'

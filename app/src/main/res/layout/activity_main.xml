@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2B332E"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/alarm"
+        style="@style/CategoryStyle"
+        android:background="@color/category_alarm"
+        android:text="@string/category_alarm" />
+
+    <TextView
+        android:id="@+id/timer"
+        style="@style/CategoryStyle"
+        android:background="@color/category_timer"
+        android:text="@string/category_timer" />
+
+    <TextView
+        android:id="@+id/stopwatch"
+        style="@style/CategoryStyle"
+        android:background="@color/category_stopwatch"
+        android:text="@string/category_stopwatch" />
+
+
+
+</LinearLayout>
